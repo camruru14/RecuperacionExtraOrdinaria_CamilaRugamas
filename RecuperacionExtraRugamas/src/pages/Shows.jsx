@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useFetchShows } from '../hooks/useFetch.js';
-import { Card } from '../components/Card';
-import { Loader } from '../components/Loader';
+import { Card } from '../components/Card.jsx';
+import { Loader } from '../components/Loader.jsx';
 import './Shows.css';
  
 export const Shows = () => {
